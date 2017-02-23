@@ -1,0 +1,18 @@
+Name = macbook_pro_layer2;
+Version = 0.3;
+Author = "Erik Kaareng-Sunde (2017)";
+KLL = 0.3c;
+
+#
+# Output page up and page down when func + up or down is pressed
+#
+
+# Modified Date
+Date = 2017-02-23;
+
+
+# Page up
+S0x62 : U"PageUp";
+
+# Page down
+S0x71 : U"PageDown";
